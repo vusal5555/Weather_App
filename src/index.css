@@ -96,3 +96,21 @@ h1 {
 .bold {
   font-weight: 700;
 }
+
+@media (max-width: 900px) {
+  .app {
+    height: 100%;
+  }
+
+  .container {
+    height: 100vh;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .app .bottom {
+    gap: 0.5rem;
+  }
+}
