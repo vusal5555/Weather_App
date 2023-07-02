@@ -114,3 +114,12 @@ h1 {
     gap: 0.5rem;
   }
 }
+@media (max-width: 1200px) {
+  .app {
+    height: 100%;
+  }
+
+  .container {
+    height: 100vh;
+  }
+}
